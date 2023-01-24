@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&family=Oxygen:wght@400;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&display=swap');
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	margin: 10px;
+}
+body {
+	background-color: #52525b;
+	color: #fafafa;
+}
+
+
+ul {
+	list-style-type: none;
+}
+h1 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 48px;
+}
+h2 {
+	font-family: 'Inconsolata' monospace;
+	font-size: 24px;
+	font-weight: bold;
+}
+p {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+}
+
+.author p {
+	font-size: 18px;
+}
+
+.via a{
+	font-weight: 300;
+}
+
+.colors {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #fafafa;
+	border-radius: 10px;
+}
+.fonts {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #fb923c;
+	border-radius: 10px;
+}
+.h1 {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #facc15;
+	border-radius: 10px;
+}
+.h2 {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #4ade80;
+	border-radius: 10px;
+}
+.paragraph {
+margin: 10px;
+	padding: 10px;
+	border: 1px solid #2dd4bf;
+	border-radius: 10px;	
+}
+a {
+	font-family: 'Inconsolata', monospace;
+	text-decoration: none;
+	color: #facc15;}
+
+a:hover {
+border: 1px dotted #2dd4bf;
+	border-radius: 5px;
+}
+.colors {
+	justify-content: center;
+	
+}
+
+/*Color Blocks*/
+.colors {
+	font-family: 'Mulish', sans-serif;
+
+}
+.scheme,
+.accents {
+	border: 1px solid #18181b;
+	border-radius: 5px;
+	height: auto;
+	width: 150px;
+
+}
+
+/*Zinc Color Swatches*/
+.zinc-black {
+	background-color: #18181b;
+	color:#fafafa;
+}
+
+.zinc-gray {
+	background-color: #52525b;
+	color:#fafafa;
+}
+
+.zinc-pale {
+	background-color: #a1a1aa;
+	color: #fafafa;
+}
+
+.zinc-white {
+	background-color: #fafafa;
+	color:#18181b;
+}
+
+/*Accent Color Swatches*/
+
+.accent-yellow {
+	background-color: #facc15;
+	color: #18181b;
+}
+
+.accent-orange {
+	background-color: #fb923c;
+	color:#18181b;
+}
+.accent-green {
+	background-color: #4ade80;
+	color:#18181b;
+}
+.accent-blue {
+	background-color:#2dd4bf;
+	color:#18181b;
+}
+
+/*Font formatting*/
+
+.sectionhead {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 500;
+	font-size:26px;
+}
+.underline {
+	text-decoration: underline;
+}
+
+
+.inconsolata p {
+	font-family: 'Inconsolata', monospace;
+}
+
+.source-code-pro p{
+	font-family:'Source Code Pro', monospace ;
+}
